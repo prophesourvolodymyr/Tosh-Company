@@ -86,7 +86,7 @@ This openness is intentional. The ecosystem should grow from real app needs rath
 
 ## Current State
 
-The root ecosystem is in documentation and repository setup. `NotchinTosh` contains the first working SDK and marketplace reference implementation. `ToshSDK` and `ToshMarketplace` now exist as independent initialized repositories, but their production implementation has not been transferred yet. Existing app repositories remain independent.
+The root ecosystem is in documentation and repository setup. `NotchinTosh` contains the first working SDK and marketplace reference implementation. `ToshSDK` and `ToshMarketplace` exist as independent repositories; the SDK implementation and marketplace service have not yet been transferred from their NotchinTosh reference paths. `ToshMarketplace/` is the designated source repository for all new marketplace service work after its migration slice passes verification. Existing app repositories remain independent.
 
 ## Reading Order
 

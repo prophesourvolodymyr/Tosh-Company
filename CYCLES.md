@@ -52,6 +52,7 @@ The apps can develop independently. An app cannot become an installable marketpl
 - [ ] Define publisher account, Developer Mode, and signing-key boundaries
 - [ ] Define package validation and review policy
 - [ ] Define immutable artifact storage and release history
+- [ ] Migrate the verified marketplace service from `NotchinTosh/marketplace/` into the designated `ToshMarketplace/` repository before new service work begins
 - [ ] Build the public web marketplace in its owning project
 - [ ] Build publisher submission and moderation flows
 - [ ] Verify privacy, compatibility, quarantine, rollback, and trust states
