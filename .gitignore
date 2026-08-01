@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Swift and Xcode build output
+.build/
+**/.build/
+DerivedData/
+**/DerivedData/
+.swiftpm/
+**/.swiftpm/
+
+# JavaScript tooling
+node_modules/
+**/node_modules/
+coverage/
+**/coverage/
+
+# Generated marketplace and app artifacts
+dist/
+**/dist/
+*.notchbridge
+
+# Local editor and operating-system state
+.vscode/
+.idea/
+*.swp
